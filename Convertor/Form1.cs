@@ -28,22 +28,22 @@ namespace Convertor
             switch (comboBox1.Text)
             {
                 case "USD":
-                    result = input * 0.55;
+                    result = input * 1.81268;
                     break;
                 case "EUR":
-                    result = input * 0.51;
+                    result = input * 1.95583;
                     break;
                 case "GBP":
-                    result = input * 0.44;
+                    result = input * 2.27671;
                     break;
                 case "AUD":
-                    result = input * 0.84;
+                    result = input * 1.18793;
                     break;
-                case "CAN":
-                    result = input * 0.75;
+                case "CNY":
+                    result = input * 0.252555;
                     break;
                 case "RON":
-                    result = input * 2.54;
+                    result = input * 0.393218;
                     break;
             }
             textBox2.Text = result.ToString("f2");

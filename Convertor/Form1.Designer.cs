@@ -68,7 +68,7 @@
             // 
             comboBox1.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "USD", "EUR", "GBP", "AUD", "CAD", "RON" });
+            comboBox1.Items.AddRange(new object[] { "USD", "EUR", "GBP", "AUD", "CNY", "RON" });
             comboBox1.Location = new Point(154, 200);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(161, 31);
